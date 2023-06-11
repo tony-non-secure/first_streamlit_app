@@ -41,7 +41,7 @@ try:
 #   streamlit.error ()
 
 # troubleshoot - don't run anything after next line
-stremlit.stop()
+streamlit.stop()
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
